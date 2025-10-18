@@ -10,6 +10,10 @@ const app = express();
 app.use(express.json());
 app.use(limiter);
 
+app.get("/", (req, res) => {
+  res.send("Welcome!");
+});
+
 app.get("/me", getUserProfile);
 
 app.listen(PORT, () => {

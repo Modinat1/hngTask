@@ -29,7 +29,7 @@
 
 ## Testing the API
 
-- http://localhost:3000/me
+- https://hngtask-production.up.railway.app/me
 
 ### Expected Response
 
